@@ -1,0 +1,50 @@
+69 ?- consult(['c:/Users/alhar/Downloads/lab5 Ai.pl']).
+true.
+
+70 ?- father(tom, bob).
+true.
+
+71 ?- mother(pam, bob).
+true.
+
+72 ?- son(bob, tom).
+true.
+
+73 ?- daughter(ann, bob).
+true.
+
+74 ?- brother(bob, liz).
+true.
+
+75 ?- sister(ann, pat).
+true.
+
+76 ?- grandfather(tom, ann).
+true .
+
+77 ?- grandfather(tom, jim).
+false.
+
+78 ?- aunt(liz, ann).
+true .
+
+79 ?- uncle(bob, jim).
+false.
+
+80 ?- cousin(ann, jim).
+false.
+
+81 ?- cousin(jim, ann).
+false.
+
+82 ?- cousin(jim, ann).
+false.
+
+82 ?- ancestor(pam, X).
+X = bob ;
+X = ann ;
+X = pat ;
+X = jim ;
+false.
+
+83 ?- 
